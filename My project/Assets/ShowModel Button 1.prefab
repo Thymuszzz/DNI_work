@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3616978081763839075}
   - component: {fileID: 2595781630856078355}
   - component: {fileID: 5119079738229938224}
+  - component: {fileID: 8963597090785700046}
   - component: {fileID: 5370491264714337702}
   m_Layer: 5
   m_Name: ShowModel Button 1
@@ -122,6 +123,20 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8963597090785700046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210905349076950972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41922baca0e6af24a973242a0be4818a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &5370491264714337702
 MonoBehaviour:
   m_ObjectHideFlags: 0
